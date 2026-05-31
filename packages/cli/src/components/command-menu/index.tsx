@@ -17,7 +17,7 @@ export default function CommandMenu({ query, selectedIndex, scrollRef, onSelect,
   const filtered = getFilteredCommands(query);
   const visibleHeight = Math.min(filtered.length, MAX_VISIBLE_COMMANDS);
 
-  if (!filtered.length)) {
+  if (!filtered.length) {
 
     return (
       <box paddingX={1}>
@@ -52,12 +52,5 @@ export default function CommandMenu({ query, selectedIndex, scrollRef, onSelect,
       })}
     </scrollbox>
   )
-}
-          >
 
-          </box>
-        )
-      })}
-    </scrollbox>
-  )
 }
